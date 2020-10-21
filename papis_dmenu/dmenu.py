@@ -32,9 +32,9 @@ _dmenu_pick = functools.partial(
 def pick(options, header_filter=None, match_filter=None, **kwargs):
 
     fmt = papis.config.get('header-format', section='dmenu-gui')
+
     header_filter = (
-        header_filter if header_filter is not None
-        else lambda x: papis.utils.format_doc(fmt, x)
+        lambda x: papis.utils.format_doc(fmt, x)
     )
 
     if len(options) == 1:
