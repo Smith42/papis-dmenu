@@ -1,7 +1,7 @@
 Papis-dmenu
 ===========
 
-This project contains several scripts for a picker based on [dmenu](https://tools.suckless.org/dmenu/) for papis v0.11.1.
+This project contains several scripts for a picker based on [dmenu](https://tools.suckless.org/dmenu/) for [papis v0.11.1](https://github.com/papis/papis).
 
 Usage
 -----
@@ -12,6 +12,8 @@ Then run `papis-open.bash` to open a papis file in mupdf, or run `papis-export.b
 
 Dependencies
 ------------
+
+[papis](https://github.com/papis/papis)
 
 [shyaml](https://github.com/0k/shyaml)
 
